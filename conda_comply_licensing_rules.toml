@@ -1,0 +1,4 @@
+[tool.conda_comply]
+safe_licenses = [
+    "Permissive",
+]
