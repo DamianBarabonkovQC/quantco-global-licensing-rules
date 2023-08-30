@@ -1,4 +1,8 @@
 [tool.conda_comply]
 safe_licenses = [
     "Permissive",
+    "Copyleft Weak",
+]
+ignore_packages = [
+    {package="_libgcc_mutex"},
 ]
